@@ -1,0 +1,70 @@
+
+h1 {
+  color: darkblue;
+  text-align: center;
+}
+
+h3 {
+  color: darkblue;
+}
+code {
+  font-family: Consolas,"courier new";
+  color: darkslategrey;
+ /#  background-color: #f1f1f1;   */
+  padding: 2px;
+  font-size: 80%;
+}
+
+.code_div{    /*style for code division   */
+  border: 1px outset black;
+  background-color: white;    
+  text-align: left;
+   width: 140%
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption {
+  text-align: center;
+}
+
+
+/*
+figure {
+  margin: auto;
+}
+*/
+
+.content1{
+   width: 200px
+   margin:auto
+   padding: 25px 50px;
+   border:  solid blue
+}
+
+.content2{
+   margin:auto
+   padding: 25px 50px;
+   background-color: #A9F5F2;
+}
+
+.content3{
+   margin:auto
+   padding: 25px 50px;
+   background-color: #CEF6F5;
+}
+
+.content4{
+   margin:auto
+   padding: 25px 50px;
+   background-color: #A9F5F2;
+}
+.content5{
+   margin:auto
+   padding: 25px 50px;
+   background-color: #CEF6F5;
+}
