@@ -98,5 +98,5 @@ void Timer1_Init(void)
  //Init. Val. 0    0    0    0    0      0      0     0
  //This code  0    0    0    0    0      0      0     1       -> enable Timer1 overflow interrupt
  //------------------------------------------------------------
- TIMSK1=0x01;  //habilita Timer1 overflow interrupt
+ TIMSK1=0x01;  //enable Timer1 overflow interrupt
 } 
