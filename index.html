@@ -245,6 +245,7 @@
           <li> Considering the version 4 of the code, the sampling rate was doubled, generating the result of Fig. 11, where we observed a better definition of the signal. It is not possible to run code from versions 1 to 3 at this sample rate.</li>
           <li> As we can see in Fig. 12, the maximum speed for real-time execution has been reached, so it is not possible to increase the sample rate in this strategy. To do this, one option would be to use previously calculated samples, avoiding the calculation within the ISR. </li>
           <li> For generating more complex signals with real-time calculation, or using higher sampling rates, a faster platform should be considered.</li>
+		  <li> If you change the sampling rate, don't forget to update the time integral step of the angular frequency.</li>
        </ul>		
 	</div>	
 	<div class="content5">
